@@ -1,0 +1,19 @@
+<Project fullMode="0">
+  <project-home>.</project-home>
+  <exclude-files/>
+  <assets>
+    <item path="index.html" dflag="131076"/>
+    <item path="js\bootstrap-4.0.0.js" dflag="131076"/>
+    <item path="js\bootstrap.bundle.js" dflag="131076"/>
+    <item path="js\bootstrap.bundle.min.js" dflag="131076"/>
+    <item path="js\bootstrap.js" dflag="131076"/>
+    <item path="js\bootstrap.min.js" dflag="131076"/>
+    <item path="js\jquery-3.2.1.min.js" dflag="131076"/>
+    <item path="js\jquery-3.4.1.min.js" dflag="131076"/>
+    <item path="js\popper.min.js" dflag="131076"/>
+  </assets>
+  <inspect-dirs>
+    <item/>
+  </inspect-dirs>
+</Project>
+
