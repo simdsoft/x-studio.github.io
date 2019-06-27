@@ -55,6 +55,29 @@ background-color: #050713;
 	opacity: 0.8;
 }
 
+.btn-lg {
+    padding: .147rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.col-feat-left {
+    text-align: center;
+	margin-right: auto;
+}
+
+.col-feat-right {
+    text-align: center;
+	margin-left: auto;
+}
+
+.col-vcenter-block {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .table-striped tbody tr:nth-of-type(odd) {
   background-color: #303030;
 }
