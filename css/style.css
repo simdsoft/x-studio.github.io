@@ -28,7 +28,7 @@ display: block;
 
 body {
 margin: 0;
-font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-family: "Helvetica Neue", "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 font-size: 0.9375rem;
 font-weight: 400;
 line-height: 1.5;
@@ -42,17 +42,61 @@ background-color: #050713;
 	float: right;
 }
 
-.btn-free-trail {
+/* The Nav bar item active color */
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #4567ff;
+}
+
+.h1, h1 {
+    font-size: 3.5rem;
+}
+
+/* works, control the first flat panel */
+/* Control the title padding */
+.jumbotron {
+  padding: 6rem 1rem 0rem 0rem;
+  margin-bottom: 2rem;
+  background-color: #050713;
+  border-radius: 0.3rem;
+}
+
+.lbtn {
 	color: #fff;
 	background-color: #4567FF;
 	border-color: #4567FF;
 }
 
-.btn-buy {
-    color: #fff;
-	background-color: #4567FF;
+.rbtn {
+    color: #7E96FF;
+	background-color: rgba(69,103,255,0.2);
 	border-color: #4567FF;
 	opacity: 0.8;
+	border-width: 0.1rem;
+}
+
+.lbtn:hover {
+  /* color: #3333ff; */
+}
+
+.rbtn:hover {
+  color: #fff;
+}
+
+/* The buttons area position */
+
+.btn-top {
+  padding-top: 2.5rem;
+}
+
+.rbtn-padding {
+  padding-left: 24px;
+}
+
+.lbtn-padding {
+  padding-right: 24px;
 }
 
 .btn-lg {
@@ -60,6 +104,31 @@ background-color: #050713;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .3rem;
+	
+	width: 10rem;
+	height: 3.0rem;
+	padding-top: 10px;
+}
+
+.vsi-lh {
+	line-height: 3;
+	opacity: 0.59;
+}
+
+.col-feat-opacity {
+	opacity: 0.5;
+}
+
+.row-feat-margin-first {
+	margin: 6rem 1rem 6rem 1rem;
+}
+
+.row-feat-margin {
+	margin: 6rem 1rem 6rem 1rem;
+}
+
+.row-feat-margin-last {
+	margin: 6rem 1rem 6rem 1rem;
 }
 
 .col-feat-left {
@@ -76,6 +145,11 @@ background-color: #050713;
   display: block;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.img-feat-scale {
+	max-width: 90%;
+	max-height: 90%;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
@@ -160,14 +234,6 @@ background-color: #050713;
 .badge-dark {
   color: #fff;
   background-color: #303030;
-}
-
-/* works, control the first flat panel */
-.jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background-color: #050713;
-  border-radius: 0.3rem;
 }
 
 .list-group-item {
