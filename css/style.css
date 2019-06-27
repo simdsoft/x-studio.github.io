@@ -57,7 +57,7 @@ background-color: #050713;
 /* works, control the first flat panel */
 /* Control the title padding */
 .jumbotron {
-  padding: 6rem 1rem 0rem 0rem;
+  padding: 6rem 0rem 0rem 0rem;
   margin-bottom: 2rem;
   background-color: #050713;
   border-radius: 0.3rem;
