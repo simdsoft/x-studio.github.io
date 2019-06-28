@@ -77,10 +77,6 @@ background-color: #0F132A;
 	border-width: 0.1rem;
 }
 
-.lbtn:hover {
-  /* color: #3333ff; */
-}
-
 .rbtn:hover {
   color: #fff;
 }
@@ -141,8 +137,8 @@ background-color: #0F132A;
 }
 
 .feature-zoom {
-	max-width: 90%;
-	max-height: 90%;
+	max-width: 80%;
+	max-height: 80%;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
@@ -336,3 +332,39 @@ background-color: #0F132A;
 .alert-dark {
   background-color: #0F132A;
 }
+
+/* --------- update list styles --------------*/
+.wp{ width:1000px; margin:0 auto; position:relative; }
+.upd_new {
+  color:#c4f0f0e1;
+}
+.update_rec{ 
+  padding:40px 0px 0px 0px;
+  color:#c4f0f098;
+}
+.update_list{ width:940px; margin:0 auto; border-left:#ccc solid 2px;}
+.update_list li{ padding:0 0 30px 25px; position:relative; width:100%;}
+.update_list li h2{ font-size:18px; margin-bottom:10px; color:#c4f0f0e1;}
+.update_list li h3{ font-size:16px; margin-bottom:10px; color:#c4f0f098;}
+.update_list li p{ line-height:24px; font-size:14px;}
+
+ul, ol {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.upd_mk {
+  position: absolute;
+  z-index: 10;
+  border-radius: 50%;
+  background: #777;
+  left: 50%;
+  bottom: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  display:block; width:16px; height:16px; position:absolute; top:7px; left: -8px; overflow:hidden;
+  }
+
+.new{ 
+    background: #6880f7;
+  }
