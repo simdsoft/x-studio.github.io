@@ -108,28 +108,28 @@ background-color: #050713;
 	opacity: 0.59;
 }
 
-.col-feat-opacity {
+.feature-opacity {
 	opacity: 0.5;
 }
 
-.row-feat-margin-first {
+.feature-margin-first {
 	margin: 6rem 1rem 6rem 1rem;
 }
 
-.row-feat-margin {
+.feature-margin {
 	margin: 6rem 1rem 6rem 1rem;
 }
 
-.row-feat-margin-last {
+.feature-margin-last {
 	margin: 6rem 1rem 6rem 1rem;
 }
 
-.col-feat-left {
+.feature-left {
     text-align: center;
 	margin-right: auto;
 }
 
-.col-feat-right {
+.feature-right {
     text-align: center;
 	margin-left: auto;
 }
@@ -140,7 +140,7 @@ background-color: #050713;
   margin-bottom: auto;
 }
 
-.img-feat-scale {
+.feature-zoom {
 	max-width: 90%;
 	max-height: 90%;
 }

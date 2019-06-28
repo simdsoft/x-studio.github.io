@@ -2,18 +2,28 @@
   <project-home>.</project-home>
   <exclude-files/>
   <assets>
-    <item path="index.html" dflag="131076"/>
-    <item path="js\bootstrap-4.0.0.js" dflag="131076"/>
-    <item path="js\bootstrap.bundle.js" dflag="131076"/>
-    <item path="js\bootstrap.bundle.min.js" dflag="131076"/>
+    <item path="css\bootstrap.min.css" dflag="131076"/>
+    <item path="css\bootstrap-grid.min.css" dflag="131076"/>
+    <item path="css\bootstrap-reboot.css" dflag="131076"/>
+    <item path="css\bootstrap-reboot.min.css" dflag="131076"/>
+    <item path="css\style.css" dflag="131076"/>
+    <item path="css\bootstrap-dark.css" dflag="131076"/>
+    <item path="css\bootstrap-grid.css" dflag="131076"/>
+    <item path="js\popper.min.js" dflag="131076"/>
+    <item path="css\bootstrap-dark.min.css" dflag="131076"/>
+    <item path="css\bootstrap.css" dflag="131076"/>
     <item path="js\bootstrap.js" dflag="131076"/>
     <item path="js\bootstrap.min.js" dflag="131076"/>
-    <item path="js\jquery-3.2.1.min.js" dflag="131076"/>
+    <item path="index.html" dflag="131076"/>
     <item path="js\jquery-3.4.1.min.js" dflag="131076"/>
-    <item path="js\popper.min.js" dflag="131076"/>
+    <item path="js\bootstrap.bundle.min.js" dflag="131076"/>
+    <item path="js\bootstrap.bundle.js" dflag="131076"/>
   </assets>
   <inspect-dirs>
     <item/>
   </inspect-dirs>
+  <ssheets/>
+  <assets.ref/>
+  <debug-options/>
 </Project>
 
