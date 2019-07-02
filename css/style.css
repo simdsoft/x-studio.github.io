@@ -38,11 +38,11 @@ background-color: #0F132A;
 }
 
 a {
-  color: rgb(0, 192, 255);
+  color: #4567ff;
 }
 
 a:hover {
-  color: rgb(0, 220, 255);
+  color: #5577ff;
 }
 
 /* The pop menu when small */
