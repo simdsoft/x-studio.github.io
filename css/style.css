@@ -37,6 +37,14 @@ text-align: left;
 background-color: #0F132A;
 }
 
+a {
+  color: rgba(0, 192, 255, 255);
+}
+
+a:hover {
+  color: rgb(0, 220, 255);
+}
+
 /* The pop menu when small */
 .pull-right {
 	float: right;
@@ -101,7 +109,12 @@ background-color: #0F132A;
 
 .vsi-lh {
 	line-height: 3;
-	opacity: 0.59;
+  opacity: 0.59;
+}
+
+.install-tips{
+  margin-top: -1rem;
+  margin-bottom: 0.5rem;
 }
 
 .feature-opacity {
