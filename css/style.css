@@ -113,7 +113,7 @@ a:hover {
   color: rgba(255, 255, 255, 0.59); /* Avoid child element inherit the opacity */
 }
 
-.install-tips{
+.install-tips {
   margin-top: -1rem;
   margin-bottom: 0.5rem;
 }
@@ -351,16 +351,16 @@ a:hover {
 /* --------- update list styles --------------*/
 .wp{ width:1000px; margin:0 auto; position:relative; }
 .upd_new {
-  color:#c4f0f0e1;
+  color:rgba(255, 255, 255, 0.9);
 }
 .update_rec{ 
   padding:40px 0px 0px 0px;
-  color:#c4f0f098;
+  color:rgba(255, 255, 255, 0.7);
 }
-.update_list{ width:940px; margin:0 auto; border-left:#ccc solid 2px;}
+.update_list{ width:940px; margin:0 auto; border-left:#ccc solid 1px;}
 .update_list li{ padding:0 0 30px 25px; position:relative; width:100%;}
-.update_list li h2{ font-size:18px; margin-bottom:10px; color:#c4f0f0e1;}
-.update_list li h3{ font-size:16px; margin-bottom:10px; color:#c4f0f098;}
+.update_list li h2{ font-size:18px; margin-bottom:10px; color:rgba(255, 255, 255, 0.9);}
+.update_list li h3{ font-size:16px; margin-bottom:10px; color:rgba(255, 255, 255, 0.7);}
 .update_list li p{ line-height:24px; font-size:14px;}
 
 ul, ol {
@@ -377,7 +377,7 @@ ul, ol {
   bottom: 100%;
   margin-bottom: 20px;
   text-align: center;
-  display:block; width:16px; height:16px; position:absolute; top:7px; left: -8px; overflow:hidden;
+  display:block; width:16px; height:16px; position:absolute; top:3px; left: -9px; overflow:hidden;
   }
 
 .new{ 
