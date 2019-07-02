@@ -38,7 +38,7 @@ background-color: #0F132A;
 }
 
 a {
-  color: rgba(0, 192, 255, 255);
+  color: rgb(0, 192, 255);
 }
 
 a:hover {
@@ -109,7 +109,8 @@ a:hover {
 
 .vsi-lh {
 	line-height: 3;
-  opacity: 0.59;
+  /*opacity: 0.59;*/
+  color: rgba(255, 255, 255, 0.59); /* Avoid child element inherit the opacity */
 }
 
 .install-tips{
@@ -118,7 +119,8 @@ a:hover {
 }
 
 .feature-opacity {
-	opacity: 0.5;
+  /* opacity: 0.5; */
+  color: rgba(255, 255, 255, 0.59); /* Avoid child element inherit the opacity */
 }
 
 .feature-margin-first {
