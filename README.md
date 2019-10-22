@@ -1,4 +1,4 @@
-# The official website of x-studio365 IDE
+# The official website of x-studio IDE
 
 ## bootstrap
 4.3.1
