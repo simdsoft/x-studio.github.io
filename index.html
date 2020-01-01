@@ -183,7 +183,7 @@
             <a href="https://github.com/simdsoft/x-studio" target="_blank"><strong>Github.com</strong></a>&nbsp;|
             <a href="https://github.com/simdsoft/x-studio/issues" target="_blank"><strong>Send Feedback</strong></a><br />
             <a href="http://www.beian.miit.gov.cn/" >Yue ICP Bei No.15017004</a><br />
-            Copyright © 2020 x-studio. All rights reserved.</p>
+            <p id="cpinfo">Copyright © 2014 x-studio. All rights reserved.</p></p>
           </div>
         </div>
       </div>
@@ -193,7 +193,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/xslib.js"></script>
     <script type="text/javascript">
+        $("#cpinfo").text(getCopyrightInfo());
         // Load Latest version and update
         $.get("https://x-studio.net/query_rel.php?lang=en-US", function(result){
            $("#relinfo").text(result);
